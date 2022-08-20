@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
-import Hero from '../components/Hero';
+import Habitsbody from "../components/Habitsbody"
 
 const Habits = () => {
     return (
         <Box>
-            <Hero />
+            <Habitsbody />
 
         </Box>
     );
