@@ -6,17 +6,19 @@ import './App.css';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-
+import Habits from './pages/Habits';
 
 const App = () => (
-  <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/exercise/:id" element={<ExerciseDetail />} />
-    </Routes>
-    
-  </Box>
+    <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
+        <Navbar />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/exercise/:id" element={<ExerciseDetail />} />
+            <Route path="/pages/Habits" element={<Habits />} />
+
+        </Routes>
+
+    </Box>
 );
 
 export default App;

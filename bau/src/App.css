@@ -162,8 +162,43 @@ h4 {
         display: none;
     }
 
+
     .exercise-card {
-        width: 320px;
+        width: 100%;
+        height: 300px;
+        background: #fff;
+        border-top: 4px solid #7FB77E;
+        border-bottom-left-radius: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: first baseline;
+        align-items: center;
+        flex-direction: row;
+        transform: scale(1, 1);
+        transition: 0.3s all ease-in-out;
+    }
+
+    .exercise-card img {
+        height: 45%;
+    }
+
+    .exercise-details {
+        padding-left: 20px;
+        padding: 15px;
+    }
+
+    .exercise-details h3,
+    h4 {
+        font-size: 35px;
+        color: #7FB77E;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+    }
+
+    .exercise-details h4 {
+        font-size: 25px;
+        color: #411530;
     }
 
     .exercise-video {
@@ -175,6 +210,6 @@ h4 {
 
 @media screen and (max-width:400px) {
     .exercise-card {
-        width: 280px;
+        width: 100%;
     }
 }
