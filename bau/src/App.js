@@ -1,12 +1,22 @@
-import React from "react"
-import Nav from "./components/Nav"
-import Hero from "./components/Hero"
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Box } from '@mui/material';
 
-export default function App() {
-    return (
-        <div>
-            <Nav />
-            <Hero />
-        </div>
-    )
-}
+import './App.css';
+import ExerciseDetail from './pages/ExerciseDetail';
+import Home from './pages/Home';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
+const App = () => (
+    <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
+        <Nav />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/exercise/:id" element={<ExerciseDetail />} />
+        </Routes>
+        
+    </Box>
+);
+
+export default App;
