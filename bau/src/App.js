@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Habits from './pages/Habits';
+import Schedule from './pages/Schedule';
 
 
 const App = () => (
@@ -18,8 +19,9 @@ const App = () => (
             <Route path="/" element={<Home />} />
             <Route path="/exercise/:id" element={<ExerciseDetail />} />
             <Route path="/pages/Habits" element={<Habits />} />
-
+            <Route path="/pages/Schedule" element={<Schedule />} />
         </Routes>
+
         <Footer />
 
     </Box>
