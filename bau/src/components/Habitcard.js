@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Stack, Typography } from '@mui/material'
+import { Stack, Typography } from '@mui/material'
 
 export default function Habitcard(props) {
     return (
@@ -11,10 +11,6 @@ export default function Habitcard(props) {
                 {props.description}
             </Typography>
         </Stack>
-        // <div>
-        //     <h1>{props.title}</h1>
-        //     <p>{props.description}</p>
-        // </div>
 
 
     )

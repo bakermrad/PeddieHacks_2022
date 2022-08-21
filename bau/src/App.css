@@ -134,16 +134,63 @@ h4 {
     border: 1px solid #7FB77E !important;
 }
 
-.exercise-video {
+.SchedulePage {
+    padding-top: 150px;
+}
+
+.days {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 387px;
-    height: 381px;
-    text-decoration: none;
+    gap: 2%;
+
+}
+
+.day {
+    width: 200px;
+    height: 70px;
+    background: #D9D9D9;
+}
+
+.muscle {
+    width: 200px;
+    height: 70px;
+    background: #FFC090;
+}
+
+.dayCard {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.center {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+}
+
+.workout-Title {
+    padding: 20px;
 }
 
 @media screen and (max-width:1200px) {
+    .days {
+        display: flex;
+        gap: 2%;
+        flex-direction: column;
+        padding: 7%;
+
+    }
+
+    .day {
+        width: 90%;
+        height: 70px;
+        background: #D9D9D9;
+    }
+
+    .muscle {
+        width: 90%;
+        height: 70px;
+        background: #FFC090;
+    }
+
     .detail-image {
         width: 300px;
         height: 300px;
@@ -213,40 +260,4 @@ h4 {
     .exercise-card {
         width: 100%;
     }
-}
-
-.SchedulePage {
-    padding-top: 150px;
-}
-
-.days {
-    display: flex;
-    gap: 2%;
-
-}
-
-.day {
-    width: 200px;
-    height: 70px;
-    background: #D9D9D9;
-}
-
-.muscle {
-    width: 200px;
-    height: 70px;
-    background: #FFC090;
-}
-
-.dayCard {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.center {
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 20px;
-}
-
-.workout-Title {
-    padding-top: 20px;
 }

@@ -13,8 +13,8 @@ export default [
     },
     {
         id: 3,
-        title: "Don’t be afraid to ask",
-        description: "With so much information readily available on the web nowadays, it’s easy to get confused with what workout program to follow or when to eat for fat loss. If you’re unsure about a certain topic, don’t be afraid to ask someone you find to be more knowledgeable than you such as a personal trainer, the regulars at the gym, or even read some of the great articles we have here on the SYPT website! Learning more is never going to be a bad thing! Especially when it comes to your vitality",
+        title: "REST AND REPEAT",
+        description: "Even the most experienced athletes appreciate the importance of rest after a hard workout. Try to get eight hours of sleep every night, take at least one rest day a week and always walk into the gym ready to repeat another solid workout. Once you get into a routine, you'll graduate from your beginner status in no time.",
 
     }, {
         id: 4,
